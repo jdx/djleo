@@ -291,12 +291,6 @@ var Music = function (_React$Component) {
   }
 
   _createClass(Music, [{
-    key: 'login',
-    value: function login(e) {
-      console.log('x');
-      console.log(e);
-    }
-  }, {
     key: 'render',
     value: function render() {
       return React.createElement(
@@ -325,7 +319,7 @@ var Music = function (_React$Component) {
             React.createElement(
               'div',
               { className: 'col-lg-12 text-center' },
-              React.createElement('div', { className: 'fb-login-button', 'data-max-rows': '1', 'data-size': 'xlarge', 'data-show-faces': 'false', 'data-auto-logout-link': 'false', onlogin: this.login })
+              'music'
             )
           )
         )
